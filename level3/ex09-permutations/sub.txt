@@ -1,0 +1,20 @@
+Objetivo: geração de permutações (igual ao exercício da 42).
+
+Descrição:
+
+Dada uma string sem caracteres repetidos, imprima todas as permutações.
+
+Exemplo:
+
+abc
+acb
+bac
+bca
+cab
+cba
+
+Perguntas:
+
+qual posição estou preenchendo?
+
+quais caracteres ainda não foram usados?
