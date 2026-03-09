@@ -149,3 +149,23 @@ int ft_atoi(const char *s)
     }
     return (signal * result);
 }
+
+/// @brief print an array of numbers
+/// @param arr array of numbers
+/// @param len len of array
+/// @return total numbers printed
+int ft_printarr(int *arr, int len)
+{
+        int i = 0;
+
+    ft_putchar('{');
+    while (i < len)
+    {
+        ft_putnbr(arr[i]);
+        if (i < len - 1)
+            ft_putchar(',');
+        i++;
+    }
+    ft_putendl("}");
+    return i;
+}

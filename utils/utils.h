@@ -17,6 +17,8 @@ int ft_putstr(const char *s);
 int ft_putendl(const char *s);
 int ft_putnbr(int n);
 
+int ft_printarr(int *arr, int len);
+
 int ft_atoi(const char *s);
 
 #endif
