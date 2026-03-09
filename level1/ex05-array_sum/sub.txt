@@ -1,0 +1,13 @@
+Objetivo: dividir problemas de estruturas.
+
+Descrição:
+Escreva uma função recursiva que soma todos os elementos de um array.
+
+Exemplo:
+
+array = {3, 2, 5, 1}
+resultado = 11
+
+Pergunta:
+
+se eu já sei somar os elementos 1..n-1, como obtenho 0..n?
