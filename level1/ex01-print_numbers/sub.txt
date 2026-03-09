@@ -1,0 +1,17 @@
+Nome do programa: print_numbers
+Objetivo: aprender a visualizar chamadas recursivas simples.
+
+Descrição:
+Escreva um programa que receba um número n e imprima todos os números de 1 até n, um por linha.
+
+Exemplo:
+./print_numbers 5
+1
+2
+3
+4
+5
+
+Perguntas para guiar o raciocínio:
+- qual é o menor problema possível?
+- se eu já sei imprimir 1..n-1, como obtenho 1..n?
