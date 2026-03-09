@@ -1,0 +1,23 @@
+Objetivo: introduzir geração combinatória.
+
+Descrição:
+
+Dado um número n, imprima todas as sequências binárias possíveis de tamanho n.
+
+Exemplo:
+
+./generate_binary 3
+000
+001
+010
+011
+100
+101
+110
+111
+
+Perguntas:
+
+quantas escolhas existem em cada posição?
+
+quando a sequência está completa?
