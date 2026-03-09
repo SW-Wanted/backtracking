@@ -1,0 +1,12 @@
+Objetivo: trabalhar com recursão em strings.
+
+Descrição:
+Escreva um programa que imprima uma string ao contrário usando recursão.
+
+Exemplo:
+
+./reverse_string abcde
+edcba
+
+Pergunta chave:
+- se eu sei inverter "bcde", como obtenho "abcde" invertido?
