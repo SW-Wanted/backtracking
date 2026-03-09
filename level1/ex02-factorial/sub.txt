@@ -1,0 +1,15 @@
+Objetivo: aprender decomposição matemática.
+
+Descrição:
+Escreva uma função recursiva que calcula o fatorial de um número n.
+
+Definição matemática:
+n! = n × (n-1)!
+0! = 1
+Exemplo:
+./factorial 5
+120
+
+Perguntas:
+qual é o caso base?
+qual chamada reduz o problema?
