@@ -1,0 +1,14 @@
+Objetivo: pensar em redução de problema.
+
+Descrição:
+Calcule a^b usando recursão.
+
+Exemplo:
+
+./power 2 4
+16
+
+Definição:
+
+a^b = a × a^(b-1)
+a^0 = 1
