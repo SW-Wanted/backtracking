@@ -23,5 +23,17 @@ ex05:
 	@mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) level1/ex05-array_sum/array_sum.c $(UTILS) -o $(BUILD_DIR)/array_sum
 	
+ex06:
+	@mkdir -p $(BUILD_DIR)
+	$(CC) $(CFLAGS) level2/ex06-fibonacci/fibonacci.c $(UTILS) -o $(BUILD_DIR)/fibonacci
+
+ex07:
+	@mkdir -p $(BUILD_DIR)
+	$(CC) $(CFLAGS) level2/ex07-generate_binary/generate_binary.c $(UTILS) -o $(BUILD_DIR)/generate_binary
+
+ex08:
+	@mkdir -p $(BUILD_DIR)
+	$(CC) $(CFLAGS) level2/ex08-subsets/subsets.c $(UTILS) -o $(BUILD_DIR)/subsets
+
 clean:
 	rm -rf $(BUILD_DIR)
