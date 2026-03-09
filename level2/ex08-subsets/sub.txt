@@ -6,13 +6,14 @@ Dado um conjunto {1,2,3}, imprima todos os subconjuntos possíveis.
 
 Exemplo:
 
+ ./subsets 1 2 3
 {}
-{1}
-{2}
 {3}
-{1,2}
-{1,3}
+{2}
 {2,3}
+{1}
+{1,3}
+{1,2}
 {1,2,3}
 
 Pergunta fundamental:
