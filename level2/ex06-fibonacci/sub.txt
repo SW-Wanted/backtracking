@@ -1,0 +1,16 @@
+Objetivo: compreender múltiplas chamadas recursivas.
+
+Descrição:
+
+Calcule o número de Fibonacci n.
+
+Definição:
+
+fib(n) = fib(n-1) + fib(n-2)
+fib(0) = 0
+fib(1) = 1
+
+Exemplo:
+
+./fibonacci 7
+13
