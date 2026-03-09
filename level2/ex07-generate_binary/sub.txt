@@ -17,7 +17,5 @@ Exemplo:
 111
 
 Perguntas:
-
-quantas escolhas existem em cada posição?
-
-quando a sequência está completa?
+- quantas escolhas existem em cada posição?
+- quando a sequência está completa?
