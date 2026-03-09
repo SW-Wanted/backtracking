@@ -22,5 +22,6 @@ ex04:
 ex05:
 	@mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) level1/ex05-array_sum/array_sum.c $(UTILS) -o $(BUILD_DIR)/array_sum
+	
 clean:
 	rm -rf $(BUILD_DIR)
