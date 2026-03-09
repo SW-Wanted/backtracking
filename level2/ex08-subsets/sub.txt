@@ -1,0 +1,24 @@
+Objetivo: introduzir a ideia central do backtracking.
+
+Descrição:
+
+Dado um conjunto {1,2,3}, imprima todos os subconjuntos possíveis.
+
+Exemplo:
+
+{}
+{1}
+{2}
+{3}
+{1,2}
+{1,3}
+{2,3}
+{1,2,3}
+
+Pergunta fundamental:
+
+para cada elemento, devo:
+
+incluir
+ou
+não incluir
