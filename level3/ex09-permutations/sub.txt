@@ -1,20 +1,27 @@
-Objetivo: geração de permutações (igual ao exercício da 42).
+Assignment name  : permutations
+Expected files   : *.c *.h
+Allowed functions: puts, malloc, calloc, realloc, free, write
+---------------------------------------------------------------
 
-Descrição:
+Write a program that will print all the permutations of a string given as argument.
 
-Dada uma string sem caracteres repetidos, imprima todas as permutações.
+The solutions must be given in alphabetical order.
 
-Exemplo:
+We will not try your program with strings containing duplicates (eg: 'abccd').
 
-abc
-acb
-bac
-bca
-cab
-cba
+For example this should work:
 
-Perguntas:
+$> ./permutations a | cat -e
+a$
 
-qual posição estou preenchendo?
+$> ./permutations ab | cat -e
+ab$
+ba$
 
-quais caracteres ainda não foram usados?
+$> ./permutations abc | cat -e
+abc$
+acb$
+bac$
+bca$
+cab$
+cba$
